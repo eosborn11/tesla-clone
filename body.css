@@ -1,0 +1,33 @@
+.section{
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+section.model3{
+    background-image: url(https://cdn.motor1.com/images/mgl/8e6wM/s3/tesla-model-3.webp);
+}
+
+section.modelY{
+    background-image: url(https://etimg.etb2bimg.com/photo/87949447.cms);   
+}
+
+section.modelS{
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/35861782-9705-4f73-84f0-86d615adb661/bvlatuR/std/4096x2560/Model-S-Main-Hero-Desktop-LHD);
+}
+
+section.modelX{
+    background-image: url(https://images.hgmsites.net/hug/tesla-model-x_100777013_h.jpg);
+}
+
+section.solarPanels{
+    background-image: url(https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2020/05/Tesla-Solar-hero.jpg?w=1024&quality=82&strip=all&ssl=1);
+}
+
+section.solorRoof{
+    background-image: url(https://techcrunch.com/wp-content/uploads/2019/10/SR-Hero_2880x1800.jpg?w=990&crop=1);
+}
+
+section.accessories{
+    background-image: url(https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/MODEL_S/CHARGING_ADAPTERS/1529455-02-D_1.jpg);
+}
