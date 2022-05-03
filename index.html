@@ -3,53 +3,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+    integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+/>
     <link rel="stylesheet" href="body.css">
     <title>Tesla Clone</title>
 </head>
 <body>
-    <div class="section model3">
-        <h2>Model 3</h2>
-        <p>Order Online for <a href="">Touchless Delivery</a></p>
-        <button id="customOrder"> Custom Order</button>
-        <button id="existInventory">Existing existInventory</button>
-    </div>
-    <div class="section modelY">
-        <h2>Model 3</h2>
-        <p>Order Online for <a href="">Touchless Delivery</a></p>
-        <button id="customOrder"> Custom Order</button>
-        <button id="existInventory">Existing existInventory</button>
-    </div>
-    <div class="section modelS">
-        <h2>Model 3</h2>
-        <p>Order Online for <a href="">Touchless Delivery</a></p>
-        <button id="customOrder"> Custom Order</button>
-        <button id="existInventory">Existing existInventory</button>
-    </div>
-    <div class="section modelX">
-        <h2>Model 3</h2>
-        <p>Order Online for <a href="">Touchless Delivery</a></p>
-        <button id="customOrder"> Custom Order</button>
-        <button id="existInventory">Existing existInventory</button>
-    </div>
-    <div class="section solarPanels">
-        <h2>Solar Panels</h2>
-        <p>Lowest Cost Solar Panels in America</p>
-        <button id="customOrder"> Custom Order</button>
-        <button id="learnMore">Learn More</button>
-    </div>
-    <div class="section solorRoof">
-        <h2>Solar Roof</h2>
-        <p>Produce Clean Energy From Your Roof</p>
-        <button id="customOrder"> Custom Order</button>
-        <button id="learnMore">Learn More</button>
-    </div>
-    </div>
-    <div class="section accessories">
-        <h2>Accessories</h2>
-        <button id="shopNow">Shop Now</button>
-    </div>
-    </div>
 
+   <section id="fullPage">
+
+    <section class="section model3">
+        <div class="section__content">
+            <h2>Model 3</h2>
+            <p>Order Online for <a href="">Touchless Delivery</a></p>
+        </div>
+
+        <div class="action_contain">
+            <button id="primary"> Custom Order</button>
+            <button id="secondary">Existing Inventory</button>
+        </div>
+    </section><!-- end model 3 -->
+
+    <section class="section modelY">
+        <div class="section__content">
+            <h2>Model 3</h2>
+            <p>Order Online for <a href="">Touchless Delivery</a></p>
+
+        </div>
+
+        <div class="action_contain">
+            <button id="primary"> Custom Order</button>
+            <button id="secondary">Existing Inventory</button>
+        </div>
+    </section> <!-- end model Y -->
+
+    <section class="section modelS">
+        <div class="section__content">
+            <h2>Model 3</h2>
+            <p>Order Online for <a href="">Touchless Delivery</a></p>
+        </div>
+        
+        <div class="action_contain">
+            <button id="primary"> Custom Order</button>
+            <button id="secondary">Existing Inventory</button>
+        </div>
+    </section><!-- end model S -->
+
+    <section class="section modelX">
+        <div class="section__content">
+            <h2>Model 3</h2>
+            <p>Order Online for <a href="">Touchless Delivery</a></p>
+        </div>
+
+        <div class="action_contain">
+            <button id="primary"> Custom Order</button>
+            <button id="secondary">Existing Inventory</button>
+        </div>
+    </section><!-- end Model X -->
+
+    <section class="section solarPanels">
+        <div class="section__content">
+            <h2>Solar Panels</h2>
+            <p>Lowest Cost Solar Panels in America</p>
+        </div>
+        
+        <div class="action_contain">
+            <button id="primary"> Custom Order</button>
+            <button id="secondary">Existing Inventory</button>
+        </div>
+    </section> <!-- end Solar Panels -->
+
+    <section class="section solarRoof">
+        <div class="section__content">
+            <h2>Solar Roof</h2>
+            <p>Produce Clean Energy From Your Roof</p>
+        </div>
+      
+        <div class="action_contain">
+            <button id="primary"> Custom Order</button>
+            <button id="secondary">Existing Inventory</button>
+        </div>
+    </section><!-- end solar Roof -->
+
+    <section class="section accessories">
+        <div class="section__content">
+            <h2>Accessories</h2>
+        </div>
+
+        <div class="action_contain">
+            <button id="primary"> Custom Order</button>
+        </div>
+    </section>
+
+
+   </section> <!-- end section fullPage -->
+
+   <script
+   src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+   integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+   ></script>
 
     <script src="index.js"></script>
 </body>
