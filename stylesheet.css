@@ -1,0 +1,13 @@
+.header__nav__btn{
+    display: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: blue;
+    border-radius: 1.5rem;
+    text-transform: capitalize;
+    transition: background 0.3 linear;
+}
+.header__nav__btn:hover{
+    background: #0000001c;
+}
