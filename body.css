@@ -79,12 +79,22 @@
 	justify-content: center;
 } */
 
-#primary{
+.action_btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 2rem;
+    flex-basis: 80%;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+#primaryBtn{
     background: rgba(23, 26, 42, 0.8);
     color: white;
 }
 
-#secondary{
+#secondaryBtn{
     background: rgba(255, 255, 255, 0.65);
     color: var(--primary-color);
 }
