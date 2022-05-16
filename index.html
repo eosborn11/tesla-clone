@@ -1,69 +1,197 @@
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>Tesla</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/variable.css" />
-        <link rel="stylesheet" href="css/header.css" />
-        <link rel="stylesheet" href="css/navigation.css" />
-        <link rel="stylesheet" href="css/section.css" />
-        <link rel="stylesheet" href="css/footer.css" />
-        <link rel="stylesheet" href="css/responsive.css" />
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" 
+    integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="variable.css">
+    <link rel="stylesheet" href="section.css">
+
+    <title>Tesla Clone</title>
+</head>
+<body>
+<div class="blur__overlay"></div>
     
-    <body>
-        <div class="blur__overlay"></div>
-    
-        <header class="header">
-            <a class="header__left" href="#">
-                <img class="header__logo" src="https://thatanjan.github.io/tesla-clone-yt/media/tesla_logo.svg" alt="" />
-            </a>
-    
-            <ul class="header__middle">
-                <li>
-                <li><a class="header__nav__btn" href="#">Model S</a></li>
-                <li><a class="header__nav__btn" href="#">Model 3</a></li>
-                <li><a class="header__nav__btn" href="#">Model X</a></li>
-                <li><a class="header__nav__btn" href="#">Model Y</a></li>
-                <li><a class="header__nav__btn" href="#">Solar Roof</a></li>
-                <li><a class="header__nav__btn" href="#">Solar Panels</a></li>
-                </li>
-            </ul>
-    
-            <div class="header__right">
-                <a class="header__nav__btn" href="#">shop</a>
-                <a class="header__nav__btn" href="#">account</a>
-                <a class="header__nav__btn menu__btn" href="#">menu</a>
-            </div>
-        </header>
-    
-        <nav class="navigation">
-            <div class="close__btn__container">
-                <img class="navigation__close__btn" src="https://thatanjan.github.io/tesla-clone-yt/media/close_icon.svg" alt="" />
-            </div>
-    
-            <ul>
-                <li class="link__in__middle"><a class="nav__link" href="#">Model S</a></li>
-                <li class="link__in__middle"><a class="nav__link" href="#">Model 3</a></li>
-                <li class="link__in__middle"><a class="nav__link" href="#">Model X</a></li>
-                <li class="link__in__middle"><a class="nav__link" href="#">Model Y</a></li>
-                <li class="link__in__middle">
-                    <a class="nav__link" href="#">Solar Roofs</a>
-                </li>
-                <li class="link__in__middle">
-                    <a class="nav__link" href="#">Solar Panels</a>
+<header class="header">
+    <a class="header__left" href="#">
+        <img class="header__logo" src="https://thatanjan.github.io/tesla-clone-yt/media/tesla_logo.svg" alt="" />
+    </a>
+
+    <ul class="header__middle">
+        <li>
+        <li><a class="header__nav__btn" href="#">Model S</a></li>
+        <li><a class="header__nav__btn" href="#">Model 3</a></li>
+        <li><a class="header__nav__btn" href="#">Model X</a></li>
+        <li><a class="header__nav__btn" href="#">Model Y</a></li>
+        <li><a class="header__nav__btn" href="#">Solar Roof</a></li>
+        <li><a class="header__nav__btn" href="#">Solar Panels</a></li>
+        </li>
+    </ul>
+
+    <div class="header__right">
+        <a class="header__nav__btn" href="#">shop</a>
+        <a class="header__nav__btn" href="#">account</a>
+        <a class="header__nav__btn menu__btn" href="#">menu</a>
+    </div>
+</header>
+<body>
+<nav class="navigation">
+    <div class="close__btn__container">
+        <img class="navigation__close__btn" src="https://thatanjan.github.io/tesla-clone-yt/media/close_icon.svg" alt="" />
+    </div>
+
+    <ul>
+        <li class="link__in__middle"><a class="nav__link" href="#">Model S</a></li>
+        <li class="link__in__middle"><a class="nav__link" href="#">Model 3</a></li>
+        <li class="link__in__middle"><a class="nav__link" href="#">Model X</a></li>
+        <li class="link__in__middle"><a class="nav__link" href="#">Model Y</a></li>
+        <li class="link__in__middle">
+            <a class="nav__link" href="#">Solar Roofs</a>
+        </li>
+        <li class="link__in__middle">
+            <a class="nav__link" href="#">Solar Panels</a>
+        </li>
+        <li><a class="nav__link" href="#">Existing Inventory </a></li>
+				<li><a class="nav__link" href="#">Used Inventory </a></li>
+				<li><a class="nav__link" href="#">Trade-In </a></li>
+				<li><a class="nav__link" href="#">Test drive </a></li>
+				<li><a class="nav__link" href="#">Powerwall </a></li>
+				<li><a class="nav__link" href="#">Commercial Energy </a></li>
+				<li><a class="nav__link" href="#">utilities </a></li>
+				<li><a class="nav__link" href="#">Charging</a></li>
+				<li><a class="nav__link" href="#">Find us</a></li>
+				<li><a class="nav__link" href="#">Support</a></li>
+				<li><a class="nav__link" href="#">Investor Relations</a></li>
+			</ul>
+</nav>
+            <!-- Sections -->
+
+   <section id="fullPage">
+
+    <section class="section model3">
+        <div class="section__content">
+            <h2>Model 3</h2>
+            <p>Order Online for <a href="">Touchless Delivery</a></p>
+        </div>
+
+        <div class="action_contain">
+            <button class="action_btn" id="primaryBtn"> Custom Order</button>
+            <button class="action_btn" id="secondaryBtn">Existing Inventory</button>
+        </div>
+    </section><!-- end model 3 -->
+
+    <section class="section modelY">
+        <div class="section__content">
+            <h2>Model 3</h2>
+            <p>Order Online for <a href="">Touchless Delivery</a></p>
+
+        </div>
+
+        <div class="action_contain">
+            <button class="action_btn" id="primaryBtn"> Custom Order</button>
+            <button class="action_btn" id="secondaryBtn">Existing Inventory</button>
+        </div>
+    </section> <!-- end model Y -->
+
+    <section class="section modelS">
+        <div class="section__content">
+            <h2>Model 3</h2>
+            <p>Order Online for <a href="">Touchless Delivery</a></p>
+        </div>
+        
+        <div class="action_contain">
+            <button class="action_btn" id="primaryBtn"> Custom Order</button>
+            <button class="action_btn" id="secondaryBtn">Existing Inventory</button>
+        </div>
+    </section><!-- end model S -->
+
+    <section class="section modelX">
+        <div class="section__content">
+            <h2>Model 3</h2>
+            <p>Order Online for <a href="">Touchless Delivery</a></p>
+        </div>
+
+        <div class="action_contain">
+            <button class="action_btn" id="primaryBtn"> Custom Order</button>
+            <button class="action_btn" id="secondaryBtn">Existing Inventory</button>
+        </div>
+    </section><!-- end Model X -->
+
+    <section class="section solarPanels">
+        <div class="section__content">
+            <h2>Solar Panels</h2>
+            <p>Lowest Cost Solar Panels in America</p>
+        </div>
+        
+        <div class="action_contain">
+            <button class="action_btn" id="primaryBtn"> Custom Order</button>
+            <button class="action_btn" id="secondaryBtn">Existing Inventory</button>
+        </div>
+    </section> <!-- end Solar Panels -->
+
+    <section class="section solarRoof">
+        <div class="section__content">
+            <h2>Solar Roof</h2>
+            <p>Produce Clean Energy From Your Roof</p>
+        </div>
+      
+        <div class="action_contain">
+            <button class="action_btn" id="primaryBtn"> Custom Order</button>
+            <button class="action_btn" id="secondaryBtn">Existing Inventory</button>
+        </div>
+    </section><!-- end solar Roof -->
+
+    <section class="section accessories">
+        <div class="section__content">
+            <h2>Accessories</h2>
+        </div>
+
+        <div class="action_contain">
+            <button class="action_btn" id="primaryBtn"> Custom Order</button>
+        </div>
+    </section>
+
+
+   </section> <!-- end section fullPage -->
+
+
+   <footer>
+    <div>
+        <h3>Tesla © 2021</h3>
+    </div>
+    <div>
+        <h3>Privacy & Legal</h3>
+    </div>
+    <div>
+        <h3>Contact</h3>
+    </div>
+    <div>
+        <h3>Careers</h3>
+    </div>
+    <div>
+        <h3>News</h3>
+    </div>
+    <div>
+        <h3>Engage</h3>
+    </div>
+    <div>
+        <h3>Locations</h3>
+    </div>
+</footer>
 
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" 
+    integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-
-
-
-
-
-
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
+</html>
