@@ -15,6 +15,7 @@
     transform: translateX(0);
 }
 
+
 .navigation ul{
     width: 80%;
     margin: 0 auto;
@@ -66,4 +67,3 @@
 
 .blur__overley.is--active {
     display: block;
-}
